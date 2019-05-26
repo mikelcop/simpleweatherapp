@@ -1,0 +1,73 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  background-color: #282c34;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 1vmin);
+  color: white;
+}
+
+.container {
+  flex: 1;
+  background-color: #d1edf0;
+  min-height: 100vh;
+  background-image: url(https://www.metaweather.com/static/img/weather/s.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 130px;
+}
+
+.slide-out {
+  display: relative;
+  position: absolute;
+  top: -60px;
+  transform: translate(-1600px, 50px);
+  transition: all 800ms ease-in-out;
+  /* transition: opacity 1600ms ease-in-out; */
+}
+
+.detailDiv {
+  display: "block";
+  border: 1px solid orange;
+
+  width: "100%";
+}
+
+.slide-in {
+  flex: 1;
+  width: "100%";
+  border: "2px solid orange";
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  top: -60px;
+  transform: translate(0, 70px);
+  transition: transform 1000ms ease-in-out;
+}
+
+.searchBoxSlideOut {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  transform: translate(-1600px, 50px);
+  transition: all 800ms ease-in-out;
+}
+
+.searchBoxSlideIn {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  transform: translate(0, 50px);
+  transition: transform 1000ms ease-in-out;
+}
