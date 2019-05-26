@@ -27,7 +27,7 @@ const SearchComponent = () => {
       return city.map(item => {
         return (
           <div className={resultBox} key={item.woeid}>
-            <div className={resultItem} onClick={() => getWeather(item.woeid)}>
+            <div className="resultItem" onClick={() => getWeather(item.woeid)}>
               {item.title}
             </div>
           </div>
@@ -105,11 +105,6 @@ const resultBox = css({
   ":nth-child(even)": {
     backgroundColor: "#ace1e7"
   }
-});
-
-const resultItem = css({
-  flex: 1,
-  padding: "5px 20px"
 });
 
 export { SearchComponent };

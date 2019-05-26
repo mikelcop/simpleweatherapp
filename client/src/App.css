@@ -52,6 +52,20 @@
   transition: transform 1000ms ease-in-out;
 }
 
+.resultItem {
+  flex: 1;
+  padding: 5px 20px;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 1s;
+  text-indent: 5px;
+}
+
+.resultItem:hover {
+  background-color: pink;
+  text-indent: 30px;
+}
+
 .searchBoxSlideOut {
   display: flex;
   flex: 1;
