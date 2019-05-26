@@ -11,11 +11,8 @@ Installation:
 
 cd api
 
-yarn install
-
-yarn build
-
-yarn start
+yarn install or npm install
+yarn start or npm start
 
 
 
@@ -23,11 +20,11 @@ yarn start
 
 cd client
 
-yarn install
+yarn install or npm install
 
-yarn build
+yarn build or npm run build (optional)
 
-yarn start
+yarn start or npm start
 
 
 then open to browser
