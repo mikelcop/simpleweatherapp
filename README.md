@@ -6,17 +6,29 @@ Node js & React js
 Installation:
 
 #After cloning to local directory
+
 #Install ans start the server
+
 cd api
+
 yarn install
+
 yarn build
+
 yarn start
 
+
+
 #Install and start client
+
 cd client
+
 yarn install
+
 yarn build
+
 yarn start
+
 
 then open to browser
 http://localhost:3000/
